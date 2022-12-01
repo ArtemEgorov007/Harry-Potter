@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Inter", sans-serif;
+	min-height: 100vh;
+	background: #f5f5f5;
+}
+
+.container {
+	max-width: 688px;
+	margin: 0 auto;
+}
+.header {
+	padding-top: 64px;
+}
+/* .head__conteiner {
+	padding-bottom: 48px;
+} */
+.head__title {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 77px;
+	letter-spacing: -0.02em;
+	color: #000000;
+}
+.head__text {
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 36px;
+	color: #000000;
+}
+.header__input {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 48px;
+	width: 100%;
+}
+.header__nameinput {
+	display: flex;
+	flex-direction: column;
+}
+.header__inputtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #818182;
+}
+.header__searchinput {
+	padding-top: 3px;
+}
+.header__inputbtm {
+	padding-left: 15px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #abb5be;
+	width: 451px;
+	height: 38px;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+}
+.header__inputselect {
+	width: 216px;
+	height: 38px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	background: #ffffff;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+	color: #abb5be;
+}
+/* .header__option {
+	padding-left: 15px;
+	margin-left: 20px;
+	width: 216px;
+	height: 38px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	background: #ffffff;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+	color: #abb5be;
+} */
+.header__buttom {
+	border-bottom: 1px solid #dee2e6;
+	padding-top: 40px;
+}
+
+.main {
+	padding-top: 40px;
+}
+.main__img {
+	display: block;
+	width: 334px;
+	height: 192px;
+}
+.head__card__creattitle {
+	padding: 24px 25px 24px 24px;
+}
+.main__headcard {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+.main__card {
+	width: 334px;
+	height: 409px;
+	background: #ffffff;
+	border: 1px solid #dee2e6;
+	border-radius: 4px;
+}
+.main__titl {
+	margin-bottom: 5px;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	color: #152536;
+}
+.main__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #152536;
+}
